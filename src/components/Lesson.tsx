@@ -1,4 +1,4 @@
-import { CheckCircle, Lock } from 'phosphor-react'
+import { CheckCircle, Circle, Lock } from 'phosphor-react'
 import { isPast, format } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
 
@@ -34,9 +34,18 @@ export function Lesson(props: LessonProps) {
               Em breve
             </span>
           )}
-          <span className="text-xs rounded px-2 py-[0.125rem] text-white border border-purple-300 font-bold">
-            { props.type === 'live' ? 'AO VIVO' : 'AULA PRÁTICA' }
-          </span>
+
+          { props.type === 'class' ? (
+            <span className="text-xs rounded px-2 py-[0.125rem] text-white border border-purple-300 font-bold">
+              AULA PRÁTICA
+            </span>
+          ) : (
+            <span className="text-xs rounded px-2 py-[0.125rem] text-white border border-red-600 font-bold flex items-center gap-2">
+              <Circle size={14} color="#DC2626" weight="fill" />
+              AO VIVO
+            </span>
+          )}
+
         </header>
 
         <strong className="text-gray-200 mt-5 block"> 

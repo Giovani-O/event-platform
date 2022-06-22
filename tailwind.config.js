@@ -9,13 +9,13 @@ module.exports = {
         sans: 'Roboto, sans-serif',
       },
       colors: {
-        green: {
-          300: "#00b37e",
-          500: "#00875f",
-          700: "#015f43"
+        purple: {
+          300: "#7A00B3",
+          500: "#540087",
+          700: "#3B015F"
         },
         blue: {
-          500: "#81d8f7"
+          500: "#81F7E2"
         },
         orange: {
           500:"#fba94c"

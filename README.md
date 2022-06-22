@@ -1,10 +1,10 @@
-# event-platform
-### Platform developed during the Ignite Lab from Rocketseat.
+# event-platform  
+### Platform developed during the Ignite Lab from Rocketseat.  
 
-### NPM Commands
+### NPM Commands  
 
-Install node_modules
-``` npm i ```
+Install node_modules  
+``` npm i ```  
 
-Run in development mode
-``` npm run dev ```
+Run in development mode  
+``` npm run dev ```  

@@ -1,6 +1,6 @@
 import { DefaultUi, Player, Youtube } from "@vime/react";
 import { gql, useQuery } from "@apollo/client";
-import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from "phosphor-react";
+import { CaretRight, DiscordLogo, FileArrowDown, GithubLogo, Lightning, Link, LinkedinLogo } from "phosphor-react";
 
 import '@vime/core/themes/default.css'
 
@@ -138,6 +138,17 @@ export function Video(props: VideoProps) {
         </div>
 
         {/* Tente criar um footer aqui */}
+        <div className="h-full flex flex-col gap-1 place-items-center mt-20 pt-8 border-t border-gray-600">
+          <div className="flex flex-row gap-4">
+            <a href="https://github.com/Giovani-O" target="_blank">
+              <GithubLogo size={24} color="#323238" />
+            </a>
+            <a href="https://br.linkedin.com/in/giovani-o" target="_blank">
+              <LinkedinLogo size={24} color="#323238"/>
+            </a>
+          </div>
+          <span className="text-sm text-gray-500">Developed by Giovani O.</span>
+        </div>
       </div>
     </div>
   )

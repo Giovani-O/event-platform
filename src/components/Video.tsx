@@ -137,7 +137,6 @@ export function Video(props: VideoProps) {
           </a>
         </div>
 
-        {/* Tente criar um footer aqui */}
         <div className="h-full flex flex-col gap-1 place-items-center mt-20 pt-8 border-t border-gray-600">
           <div className="flex flex-row gap-4">
             <a href="https://github.com/Giovani-O" target="_blank">

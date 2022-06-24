@@ -1,6 +1,8 @@
 # event-platform  
 ### Platform developed during the Ignite Lab from Rocketseat.  
 
+Deployed in [Vercel](https://event-platform-lemon.vercel.app)  
+
 ### Screenshots  
 
 Subscription page  
